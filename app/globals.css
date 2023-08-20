@@ -8,7 +8,6 @@ html {
   background-color: #161717;
 } */
 html {
-  background-image: radial-gradient(rgba(138, 138, 138, 0.35) 3.5px, transparent 3.5px), radial-gradient(rgba(138, 138, 138, 0.35) 3.5px, transparent 3.5px);
-  background-size: 96px 96px;
-  background-position: 0 0, 48px 48px;
+  background-image: radial-gradient(rgba(154, 154, 154, 0.38) 2px, transparent 2px);
+  background-size: 44px 44px;
 }

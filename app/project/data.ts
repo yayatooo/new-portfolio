@@ -130,7 +130,7 @@ export const allProject = [
       company:"BMKG Mutiara Class II Palu",
       position:"Intern",
       date:"Sep 2020 - Nov 2020",
-      desc: "create a web application to predict flood disaster through rainfall data using single exponential smoothing method with PHP, CodeIgniter,Bootstrap and Make sure the weather tool still fly for inputing data of air pressure, sun temprature according to desistance.",
+      desc: "create a web application to predict flood disaster through rainfall data using single exponential smoothing method with PHP, CodeIgniter,Bootstrap",
       skills:[
         "/tech/php-1.svg",
         "/tech/bootstrap.svg",
@@ -141,9 +141,9 @@ export const allProject = [
       id:2,
       job:"Frontend Developer",
       company:"Rifqi Motor",
-      position:"Intern",
+      position:"Freelance",
       date:"Apr 2023 - May 2023",
-      desc: "building a web application to efficiently manage a business showroom for motorcycles. Our goal is to provide a user-friendly interface that simplifies the management of motorcycle inventory and To achieve this, we are leveraging Next.js and Prisma, two powerful technologies that enable us to create a fast and scalable web application with a seamless user experience.",
+      desc: "building a web application to efficiently manage a business showroom for motorcycles. Our goal is simplifies the management of motorcycle inventory",
       skills:[
         "/tech/logo-javascript.svg",
         "/tech/nextjs-icon.svg",
@@ -164,3 +164,18 @@ export const allProject = [
       ]
     },
   ]
+
+  export const linkTo = [
+    {
+      name: "About",
+      href: "/about",
+    },
+    {
+      name: "Project",
+      href: "/project",
+    },
+    {
+      name: "Blog",
+      href: "/blog",
+    },
+  ];
