@@ -2,6 +2,7 @@ import Link from "next/link";
 import { linkTo } from "../project/data";
 import classNames from "classnames";
 import { IoClose } from "react-icons/io5";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 const Sidebar = ({ openSide, setOpenSide }: any) => {
   const clickMenu = () => {
@@ -11,7 +12,7 @@ const Sidebar = ({ openSide, setOpenSide }: any) => {
   return (
     <div
       className={classNames(
-        "w-9/12 h-full bg-white/50 backdrop-blur-md fixed z-50 top-0 transition-all",
+        "w-9/12 h-full bg-white/50 dark:bg-dark-secondary/50 backdrop-blur-md fixed z-50 top-0 transition-all",
         openSide ? "right-0" : "-right-full"
       )}
     >
@@ -26,7 +27,7 @@ const Sidebar = ({ openSide, setOpenSide }: any) => {
       </div>
       <ul
         className={classNames(
-          "w-full flex flex-col font-poppins font-normal gap-x-6 text-secondary py-12 text-center gap-y-12 text-2xl"
+          "w-full flex flex-col font-poppins font-normal gap-x-6 text-secondary items-center py-12 text-center gap-y-12 text-2xl"
         )}
       >
         {linkTo.map((data, i) => {
@@ -38,6 +39,7 @@ const Sidebar = ({ openSide, setOpenSide }: any) => {
             </li>
           );
         })}
+        <ThemeSwitcher />
       </ul>
       <button></button>
     </div>
