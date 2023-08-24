@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import HeadingTittle from "../HeadingTittle";
+import Container from "../content/Container";
+import HeadingTittle from "../content/HeadingTittle";
 
 const Skills = () => {
   const skillSet = [
@@ -47,7 +48,7 @@ const Skills = () => {
       <div className=" container max-w-5xl mx-auto grid justify-center gap-4 sm:grid-cols-2 md:grid-cols-3 mt-5">
         {skillSet.map((data) => (
           <div
-            className="relative overflow-hidden rounded-lg p-6"
+            className="relative overflow-hidden rounded-lg p-6 cursor-pointer"
             key={data.title}
           >
             <Image src={data.icon} width={64} height={64} alt="skill" />

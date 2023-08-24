@@ -1,7 +1,7 @@
 // import Pattern from "./components/Pattern";
 import "./globals.css";
 import type { Metadata } from "next";
-import Provider from "./components/Provider";
+import Provider from "./components/content/Provider";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 

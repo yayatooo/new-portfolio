@@ -179,3 +179,34 @@ export const allProject = [
       href: "/blog",
     },
   ];
+
+  export const socialMedia = [
+    {
+      id:1,
+      name: 'Github',
+      href:'https://github.com/yayatooo',
+      image: "/media/github.svg"
+    },
+    {
+      id:2,
+      name: 'Medium',
+      href:'https://github.com/yayatooo',
+      image: "/media/medium.svg"
+    },
+    {
+      id:3,
+      name: 'LinkedIn',
+      href:'https://github.com/yayatooo',
+      image: "/media/linkedin.svg"
+    },
+  ]
+
+  export const careerList = [
+    "Designer",
+    "HTML&CSS",
+    "Responsive Web Design",
+    "Frontend Developer",
+    "Admin",
+    "Freelancer",
+    "Barista",
+  ]

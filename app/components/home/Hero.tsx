@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "../Button";
+import Button from "../content/Button";
 import { FaGithub } from "react-icons/fa6";
 import Navbar from "../Navbar";
 import Image from "next/image";

@@ -1,9 +1,9 @@
 import React from "react";
-import Container from "../Container";
-import HeadingTittle from "../HeadingTittle";
+import Container from "../content/Container";
+import HeadingTittle from "../content/HeadingTittle";
 import Image from "next/image";
-import { allExperiences } from "@/app/project/data";
-import Swiper from "../experience/ExperienceSection";
+import { allExperiences } from "@/app/utils/data";
+import Swiper from "./experience/ExperienceSection";
 
 const Experience = () => {
   return (

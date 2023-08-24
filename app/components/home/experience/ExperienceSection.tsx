@@ -1,7 +1,7 @@
 // Import Swiper React components
 "use client";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { allExperiences } from "@/app/project/data";
+import { allExperiences } from "@/app/utils/data";
 import ExperienceCard from "./ExperienceCard";
 import "swiper/css";
 

@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
-import ThemeSwitcher from "./ThemeSwitcher";
-import { linkTo } from "../project/data";
+import ThemeSwitcher from "./content/ThemeSwitcher";
+import { linkTo } from "../utils/data";
 import { useState, useEffect } from "react";
 import NavMobile from "./NavMobile";
 import { LuMenu } from "react-icons/lu";
@@ -37,7 +37,7 @@ const Navbar = () => {
   return (
     <nav
       className={`container max-w-5xl mx-auto flex justify-between sticky top-0 z-40 rounded-full max-full p-6 text-dark dark:text-white xs:px-4 ${
-        scrolled ? "bg-white/10" : ""
+        scrolled ? "bg-white/10 backdrop-blur-md" : ""
       }`}
     >
       {/* <Image src="/logo.png" width={50} height={50} alt="logo" /> */}

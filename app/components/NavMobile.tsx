@@ -1,10 +1,15 @@
 import Link from "next/link";
-import { linkTo } from "../project/data";
+import { linkTo } from "../utils/data";
 import classNames from "classnames";
 import { IoClose } from "react-icons/io5";
-import ThemeSwitcher from "./ThemeSwitcher";
+import ThemeSwitcher from "./content/ThemeSwitcher";
 
-const Sidebar = ({ openSide, setOpenSide }: any) => {
+interface SidebarProps {
+  openSide: boolean;
+  setOpenSide: (isOpen: boolean) => void;
+}
+
+const Sidebar = ({ openSide, setOpenSide }: SidebarProps) => {
   const clickMenu = () => {
     setOpenSide(false);
   };
@@ -12,8 +17,8 @@ const Sidebar = ({ openSide, setOpenSide }: any) => {
   return (
     <div
       className={classNames(
-        "w-9/12 h-full bg-white/50 dark:bg-dark-secondary/50 backdrop-blur-md fixed z-50 top-0 transition-all",
-        openSide ? "right-0" : "-right-full"
+        "w-9/12 h-full bg-white/50 dark:bg-dark-secondary/50 backdrop-blur-md  fixed z-50 top-0 transition-all",
+        openSide ? "right-0" : "-right-[200%]"
       )}
     >
       <div className="flex w-10/12 mx-auto justify-end py-6 text-3xl ">

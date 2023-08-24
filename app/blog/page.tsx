@@ -1,6 +1,6 @@
 import React from "react";
-import Container from "../components/Container";
-import HeadingTittle from "../components/HeadingTittle";
+import Container from "../components/content/Container";
+import HeadingTittle from "../components/content/HeadingTittle";
 
 const Blog = () => {
   return (

@@ -1,8 +1,8 @@
-import Container from "../components/Container";
 import React from "react";
-import HeadingTittle from "../components/HeadingTittle";
+import Container from "../components/content/Container";
+import HeadingTittle from "../components/content/HeadingTittle";
 import Image from "next/image";
-import { allProject } from "./data";
+import { allProject } from "../utils/data";
 import { GrCirclePlay } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa6";
 
