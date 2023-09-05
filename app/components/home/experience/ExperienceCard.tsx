@@ -31,13 +31,14 @@ export default function ExperienceCard({
         <span className="text-dark dark:text-white"> | {position}</span>
       </h2>
       <div className="flex gap-x-4 items-center">
-        {skills.map((data) => (
+        {skills.map((data, index) => (
           <Image
             src={data}
             width={35}
             height={35}
             alt="stack exp"
             className="py-3"
+            key={index}
           />
         ))}
       </div>

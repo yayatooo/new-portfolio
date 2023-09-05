@@ -54,8 +54,11 @@ const Project = () => {
         </p>
       </div>
       <div className="container max-w-5xl mx-auto grid justify-center gap-6 sm:grid-cols-2 md:grid-cols-3 mt-5 xs:px-6 lg:px-0">
-        {projectSet.map((item) => (
-          <div className="dark:bg-dark-secondary bg-gray-200 rounded-lg shadow-xl">
+        {projectSet.map((item, index) => (
+          <div
+            className="dark:bg-dark-secondary bg-gray-200 rounded-lg shadow-xl"
+            key={index}
+          >
             <Image
               src={item.image}
               width={383}

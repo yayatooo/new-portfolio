@@ -3,6 +3,7 @@ import { linkTo } from "../utils/data";
 import classNames from "classnames";
 import { IoClose } from "react-icons/io5";
 import ThemeSwitcher from "./content/ThemeSwitcher";
+// import ThemeToggle from "./content/ToggleTheme";
 
 interface SidebarProps {
   openSide: boolean;
@@ -45,6 +46,7 @@ const Sidebar = ({ openSide, setOpenSide }: SidebarProps) => {
           );
         })}
         <ThemeSwitcher />
+        {/* <ThemeToggle /> */}
       </ul>
       <button></button>
     </div>

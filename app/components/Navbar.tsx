@@ -5,6 +5,10 @@ import { linkTo } from "../utils/data";
 import { useState, useEffect } from "react";
 import NavMobile from "./NavMobile";
 import { LuMenu } from "react-icons/lu";
+import { useWindowOnEvent } from "./content/useWindowsOnEvent";
+// import { useIntersectionObserver } from "./content/useIntersectionObserver";
+import classNames from "classnames";
+import ThemeToggle from "./content/ToggleTheme";
 
 type LinkProps = {
   name: string;
@@ -14,31 +18,22 @@ type LinkProps = {
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
   const [openSide, setOpenSide] = useState(false);
+  // const [activeNavigationLink, setActiveNavigationLink] = useState("home");
 
   const clickMenu = () => {
     setOpenSide(true);
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 0) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  useWindowOnEvent("scroll", (): void => {
+    window.scrollY > 50 ? setScrolled(true) : setScrolled(false);
+  });
 
   return (
     <nav
-      className={`container max-w-5xl mx-auto flex justify-between sticky top-0 z-40 rounded-full max-full p-6 text-dark dark:text-white xs:px-4 ${
+      className={classNames(
+        "container max-w-5xl mx-auto flex justify-between sticky top-0 z-40 rounded-full max-full p-6 text-dark dark:text-white xs:px-4",
         scrolled ? "bg-white/10 backdrop-blur-md" : ""
-      }`}
+      )}
     >
       {/* <Image src="/logo.png" width={50} height={50} alt="logo" /> */}
       <Link href="/" className="text-2xl font-semibold">
@@ -54,13 +49,14 @@ const Navbar = () => {
               <Link
                 key={i}
                 href={data.href}
-                className="bg-gray-200 dark:bg-dark rounded-full px-2 py-1"
+                className="bg-gray-200 dark:bg-dark rounded-full px-2 py-1 text-base"
               >
                 {data.name}
               </Link>
             );
           })}
-          <ThemeSwitcher />
+          {/* <ThemeSwitcher /> */}
+          <ThemeToggle />
         </div>
         <NavMobile openSide={openSide} setOpenSide={setOpenSide} />
       </div>
