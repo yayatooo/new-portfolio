@@ -1,4 +1,4 @@
-import ButtonSocialMedia from "../components/content/ButtonSocialMedia";
+import ButtonSocialMedia from "@/app/hooks/ButtonSocialMedia";
 import { FaGithub, FaMedium } from "react-icons/fa6";
 import { PiTelegramLogoDuotone } from "react-icons/pi";
 import { AiFillLinkedin } from "react-icons/ai";

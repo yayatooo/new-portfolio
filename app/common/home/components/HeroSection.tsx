@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Button from "../../content/Button";
+import Button from "@/app/hooks/Button";
 import { FaGithub } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
-const HeroPage = () => {
+const HeroSection = () => {
   return (
     <motion.section
       initial={{ filter: "blur(4px)", opacity: 0 }}
@@ -46,4 +46,4 @@ const HeroPage = () => {
   );
 };
 
-export default HeroPage;
+export default HeroSection;

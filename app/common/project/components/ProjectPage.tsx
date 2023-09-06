@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { allProject } from "../utils/data";
+import { allProject } from "@/app/utils/data";
 import { GrCirclePlay } from "react-icons/gr";
 import { FaGithub } from "react-icons/fa6";
-import { fadeUpVariants } from "../utils/fadeUpVariants";
+import { fadeUpVariants } from "@/app/utils/fadeUpVariants";
 import { motion } from "framer-motion";
 
 const ProjectPage = () => {

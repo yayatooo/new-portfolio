@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import SocialMediaAbout from "./SocialMediaAbout";
 import { motion } from "framer-motion";
-import { fadeUpVariants } from "../utils/fadeUpVariants";
+import { fadeUpVariants } from "@/app/utils/fadeUpVariants";
 
 const AboutPage = () => {
   return (

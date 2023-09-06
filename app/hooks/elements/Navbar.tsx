@@ -1,14 +1,12 @@
 "use client";
 import Link from "next/link";
-import ThemeSwitcher from "./content/ThemeSwitcher";
-import { linkTo } from "../utils/data";
-import { useState, useEffect } from "react";
+import { linkTo } from "@/app/utils/data";
+import { useState } from "react";
 import NavMobile from "./NavMobile";
 import { LuMenu } from "react-icons/lu";
-import { useWindowOnEvent } from "./content/useWindowsOnEvent";
-// import { useIntersectionObserver } from "./content/useIntersectionObserver";
+import { useWindowOnEvent } from "../useWindowsOnEvent";
 import classNames from "classnames";
-import ThemeToggle from "./content/ToggleTheme";
+import ThemeToggle from "../ToggleTheme";
 
 type LinkProps = {
   name: string;
@@ -35,6 +33,7 @@ const Navbar = () => {
         scrolled ? "bg-white/10 backdrop-blur-md" : ""
       )}
     >
+      {/* <nav className="container max-w-5xl mx-auto flex justify-end"> */}
       {/* <Image src="/logo.png" width={50} height={50} alt="logo" /> */}
       <Link href="/" className="text-2xl font-semibold">
         Yato

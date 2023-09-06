@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import Container from "../content/Container";
-import HeadingTittle from "../content/HeadingTittle";
+import Container from "@/app/hooks/Container";
+import HeadingTittle from "@/app/hooks/HeadingTittle";
+import SubHeadingTittle from "@/app/hooks/SubHeadingTittle";
 
 const Skills = () => {
   const skillSet = [
@@ -41,9 +42,9 @@ const Skills = () => {
     <section className="w-full dark:text-white text-dark py-8 bg-gray-200 dark:bg-dark-secondary">
       <div className="container max-w-5xl mx-auto flex flex-col justify-center text-center">
         <HeadingTittle>Skills</HeadingTittle>
-        <p className="lg:text-2xl xs:text-lg py-4">
+        <SubHeadingTittle>
           List of the technologies that I've use
-        </p>
+        </SubHeadingTittle>
       </div>
       <div className=" container max-w-5xl mx-auto grid justify-center gap-4 sm:grid-cols-2 md:grid-cols-3 mt-5">
         {skillSet.map((data) => (

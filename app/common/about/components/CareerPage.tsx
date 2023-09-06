@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { careerList } from "../utils/data";
-import { fadeUpVariants } from "../utils/fadeUpVariants";
+import { careerList } from "@/app/utils/data";
+import { fadeUpVariants } from "@/app/utils/fadeUpVariants";
 import { motion } from "framer-motion";
 
 const CareerPage = () => {

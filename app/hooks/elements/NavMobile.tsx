@@ -1,8 +1,8 @@
 import Link from "next/link";
-import { linkTo } from "../utils/data";
+import { linkTo } from "@/app/utils/data";
 import classNames from "classnames";
 import { IoClose } from "react-icons/io5";
-import ThemeSwitcher from "./content/ThemeSwitcher";
+import ThemeSwitcher from "../ThemeSwitcher";
 // import ThemeToggle from "./content/ToggleTheme";
 
 interface SidebarProps {

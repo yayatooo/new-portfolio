@@ -1,9 +1,9 @@
 // import Pattern from "./components/Pattern";
 import "./globals.css";
 import type { Metadata } from "next";
-import Provider from "./components/content/Provider";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import Provider from "./hooks/Provider";
+import Navbar from "./hooks/elements/Navbar";
+import Footer from "./hooks/elements/Footer";
 
 export const metadata: Metadata = {
   title: "Rahmat Hidayat",
@@ -28,9 +28,7 @@ export default function RootLayout({
 
       <body className="font-Poppins">
         <Provider defaultTheme="light" attribute="class">
-          <Navbar />
           {children}
-          <Footer />
         </Provider>
       </body>
     </html>
