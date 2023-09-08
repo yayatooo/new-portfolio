@@ -1,8 +1,9 @@
+"use client";
 import React from "react";
 import Image from "next/image";
-import Container from "@/app/hooks/Container";
 import HeadingTittle from "@/app/hooks/HeadingTittle";
 import SubHeadingTittle from "@/app/hooks/SubHeadingTittle";
+import { motion } from "framer-motion";
 
 const Skills = () => {
   const skillSet = [
@@ -39,11 +40,16 @@ const Skills = () => {
   ];
 
   return (
-    <section className="w-full dark:text-white text-dark py-8 bg-gray-200 dark:bg-dark-secondary">
+    <motion.section
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 2 }}
+      className="w-full dark:text-white text-dark py-8 bg-gray-200 dark:bg-dark-secondary"
+    >
       <div className="container max-w-5xl mx-auto flex flex-col justify-center text-center">
         <HeadingTittle>Skills</HeadingTittle>
         <SubHeadingTittle>
-          List of the technologies that I've use
+          List of the technologies that I&apos;ve use
         </SubHeadingTittle>
       </div>
       <div className=" container max-w-5xl mx-auto grid justify-center gap-4 sm:grid-cols-2 md:grid-cols-3 mt-5">
@@ -60,7 +66,7 @@ const Skills = () => {
           </div>
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

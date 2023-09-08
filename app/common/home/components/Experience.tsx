@@ -9,7 +9,7 @@ const Experience = () => {
     <Container>
       <HeadingTittle>Experience</HeadingTittle>
       <SubHeadingTittle>
-        These are some of the Experiences I've did
+        These are some of the Experiences I&apos;ve did
       </SubHeadingTittle>
       <ExperienceSection />
     </Container>

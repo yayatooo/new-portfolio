@@ -57,7 +57,7 @@ export const allProject = [
     {
       id: 5,
       name: "Coral Shop",
-      image: "/coral.png",
+      image: "/Shop.png",
       desc: "this web to for my learn about make app with consume API from fake Store API",
       tech: [
         "/tech/javascript.svg",

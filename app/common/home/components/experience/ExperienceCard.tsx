@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 type ExperienceProps = {
   id: number;
@@ -21,7 +23,11 @@ export default function ExperienceCard({
   skills,
 }: ExperienceProps): React.JSX.Element {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      exit={{ opacity: 0, y: 50 }}
+      transition={{ duration: 0.5 }}
       className="w-11/12 mx-auto p-8 rounded-lg shadow-xl bg-gray-200 dark:bg-dark-secondary"
       key={id}
     >
@@ -47,6 +53,6 @@ export default function ExperienceCard({
         {date}
       </p>
       <p className="">{desc}</p>
-    </div>
+    </motion.div>
   );
 }

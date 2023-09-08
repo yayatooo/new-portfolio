@@ -50,7 +50,9 @@ const ProjectHome = () => {
     <section className="w-full dark:text-white text-dark py-8">
       <div className="container max-w-5xl mx-auto flex flex-col justify-center text-center">
         <HeadingTittle>Projects</HeadingTittle>
-        <SubHeadingTittle>Some Projects that I'm Proud Of</SubHeadingTittle>
+        <SubHeadingTittle>
+          Some Projects that I&apos;m Proud Of
+        </SubHeadingTittle>
       </div>
       <div className="container max-w-5xl mx-auto grid justify-center gap-6 sm:grid-cols-2 md:grid-cols-3 mt-5 xs:px-6 lg:px-0">
         {projectSet.map((item, index) => (

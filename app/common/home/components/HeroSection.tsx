@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import Button from "@/app/hooks/Button";
 import { FaGithub } from "react-icons/fa6";
+import { PiFileArrowDownBold } from "react-icons/pi";
+import { AiFillMessage } from "react-icons/ai";
 import { motion } from "framer-motion";
 
 const HeroSection = () => {
@@ -24,23 +26,27 @@ const HeroSection = () => {
           />
         </div>
         <p className=" text-white bg-dark dark:bg-white dark:text-dark rounded-full p-2 w-[18rem] text-center xs:text-base lg:text-xl">
-          Hi, I'm Rahmat Hidayat 🙌
+          Hi, I&apos;m Rahmat Hidayat 🙌
         </p>
       </div>
       <h1 className="font-semibold bg-gradient-to-r from-blue-700 to-sky-500 bg-clip-text text-transparent my-4 xs:text-5xl lg:text-6xl">
         Frontend Developer
       </h1>
       <h2 className="lg:text-2xl xs:text-lg xs:text-start text-justify">
-        I'm interested with the modern web development. I build app using on
-        demand technologies such as React.js, Next.js and Tailwind.css. Feel
+        I&apos;m interested with the modern web development. I build app using
+        on demand technologies such as React.js, Next.js and Tailwind.css. Feel
         free to contact me :)
       </h2>
       <div className="flex gap-x-6 justify-center mt-8">
-        <Button>LinkedIn</Button>
-        <Button>
+        <Button href="/about">
+          {" "}
+          <span className="mr-1">Get in Touch</span>
+          <AiFillMessage />
+        </Button>
+        {/* <Button>
           <FaGithub />
           <span className="ml-1">Github</span>
-        </Button>
+        </Button> */}
       </div>
     </motion.section>
   );

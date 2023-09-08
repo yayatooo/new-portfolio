@@ -26,13 +26,13 @@ const AboutPage = () => {
         <h1 className="text-3xl font-semibold">Rahmat Hidayat</h1>
         <p className="">
           {" "}
-          Hi! my name is Rahmat Hidayat u can call me yayat too. i'm frontend
-          developer who love to create beautiful and attractive web design,
-          since i learn about frontend i really enjoyed my development skills,
-          struggle to solve code, confusing and the error specially. when i
-          enjoy that stuff it just make me curious about tech for future and
-          ready to explore new technologies and staying up-to-date in frontend
-          development.
+          Hi! my name is Rahmat Hidayat u can call me yayat too. i&apos;m
+          frontend developer who love to create beautiful and attractive web
+          design, since i learn about frontend i really enjoyed my development
+          skills, struggle to solve code, confusing and the error specially.
+          when i enjoy that stuff it just make me curious about tech for future
+          and ready to explore new technologies and staying up-to-date in
+          frontend development.
         </p>
         <SocialMediaAbout />
       </motion.div>

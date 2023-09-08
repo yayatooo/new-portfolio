@@ -27,10 +27,10 @@ const CareerPage = () => {
           at the beginning of my introduction to the IT world I felt that I was
           not suitable to be a programmer. it turns out that I was wrong in
           looking at the IT world. once I found out that programmers are divided
-          into several parts that's where I got to know frontend development.
-          and after a year of learning and everything that has been passed I
-          began to love everything about frontend development and began to get
-          my career goals again :)
+          into several parts that&apos;s where I got to know frontend
+          development. and after a year of learning and everything that has been
+          passed I began to love everything about frontend development and began
+          to get my career goals again :)
         </p>
         <ul className="flex flex-wrap justify-center xs:w-11/12 lg:w-3/12 gap-2 lg:justify-start">
           {careerList.map((item, index) => (

@@ -18,7 +18,7 @@ const Sidebar = ({ openSide, setOpenSide }: SidebarProps) => {
   return (
     <div
       className={classNames(
-        "w-9/12 h-full bg-white/50 dark:bg-dark-secondary/50 backdrop-blur-md  fixed z-50 top-0 transition-all",
+        "w-9/12 h-full bg-white/50 dark:bg-dark-secondary/50 backdrop-blur-md fixed z-50 top-0 transition-all",
         openSide ? "right-0" : "-right-[200%]"
       )}
     >
