@@ -17,7 +17,7 @@ const About = () => {
         <SubHeadingTittle>What Im Interesting About</SubHeadingTittle>
         <AboutPage />
         <CareerPage />
-        <ContributionPage />
+        {/* <ContributionPage /> */}
       </Container>
       <Footer />
     </>

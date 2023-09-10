@@ -16,7 +16,7 @@ import useScroll from "../useScroll";
 // };
 
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
+  // const [scrolled, setScrolled] = useState(false);
   const [openSide, setOpenSide] = useState(false);
   const scroll = useScroll(20);
 
@@ -34,7 +34,7 @@ const Navbar = () => {
         transition={{ duration: 0.5 }}
         className={classNames(
           "container max-w-5xl mx-auto flex justify-between sticky top-0 z-40 rounded-full max-full p-6 text-dark dark:text-white xs:px-4",
-          scrolled ? "sm:bg-white/10 backdrop-blur-md" : scroll
+          { "sm:bg-white/10 backdrop-blur-md": scroll }
         )}
       >
         {/* <nav className="container max-w-5xl mx-auto flex justify-end"> */}

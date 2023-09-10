@@ -10,7 +10,7 @@ export const allProject = [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
         "/tech/nextjs-icon.svg",
       ],
-      href: "./",
+      href: "https://slicing-ui-finftrend-delta.vercel.app/",
       repository: "https://github.com/yayatooo/Slicing-UI-Finftrend",
     },
     {
@@ -23,7 +23,7 @@ export const allProject = [
         "/tech/react-icon.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       ],
-      href: "./",
+      href: "https://yt-clone-gules.vercel.app/",
       repository: "https://github.com/yayatooo/yt-clone",
     },
     {
@@ -51,7 +51,7 @@ export const allProject = [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
         "/tech/nextjs-icon.svg",
       ],
-      href: "./",
+      href: "https://poke-api-with-modal.vercel.app/",
       repository: "https://github.com/yayatooo/quran-api",
     },
     {
@@ -64,7 +64,7 @@ export const allProject = [
         "/tech/react-icon.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       ],
-      href: "./",
+      href: "https://coral-shop-bhoixp74e-yayatooo.vercel.app/",
       repository: "https://github.com/yayatooo/Coral-shop",
     },
     {
@@ -77,7 +77,7 @@ export const allProject = [
         "/tech/react-icon.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       ],
-      href: "./",
+      href: "https://bubble-bash-slicing-components.vercel.app/",
       repository: "https://github.com/yayatooo/BubbleBash-Slicing-Components",
     },
     {
@@ -105,7 +105,7 @@ export const allProject = [
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
         "/tech/nextjs-icon.svg",
       ],
-      href: "./",
+      href: "https://portfolio-hazel-two-39.vercel.app/",
       repository: "https://github.com/yayatooo/portfolio",
     },
     {
@@ -118,7 +118,7 @@ export const allProject = [
         "/tech/react-icon.svg",
         "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       ],
-      href: "./",
+      href: "https://movie-filtering.vercel.app/",
       repository: "https://github.com/yayatooo/Movie-filtering",
     },
   ];
