@@ -2,7 +2,7 @@ export const allProject = [
     {
       id: 1,
       name: "Findtrend",
-      image: "/findtrend.png",
+      image: "/projects/findtrend.png",
       desc: "this web to for my learn about slicing components about Web Maker",
       tech: [
         "/tech/javascript.svg",
@@ -16,7 +16,7 @@ export const allProject = [
     {
       id: 2,
       name: "Youtube Clone",
-      image: "/youtubeclone.png",
+      image: "/projects/youtubeclone.png",
       desc: "make app youtube clone with youtube-API and react player",
       tech: [
         "/tech/javascript.svg",
@@ -29,7 +29,7 @@ export const allProject = [
     {
       id: 3,
       name: "Qur'an API",
-      image: "/Quran-API.png",
+      image: "/projects/Quran-API.png",
       desc: "This web App help your read qur'an with the meaning of ayah of Qur'an",
       tech: [
         "/tech/typescript.svg",
@@ -43,7 +43,7 @@ export const allProject = [
     {
       id: 4,
       name: "Pokemon API",
-      image: "/poke-api.png",
+      image: "/projects/poke-api.png",
       desc: "this web to for my learn about consume complex API with Poke APIv2 and modals",
       tech: [
         "/tech/javascript.svg",
@@ -57,7 +57,7 @@ export const allProject = [
     {
       id: 5,
       name: "Coral Shop",
-      image: "/Shop.png",
+      image: "/projects/Shop.png",
       desc: "this web to for my learn about make app with consume API from fake Store API",
       tech: [
         "/tech/javascript.svg",
@@ -70,7 +70,7 @@ export const allProject = [
     {
       id: 6,
       name: "BubbleBash",
-      image: "/bubbleBash.png",
+      image: "/projects/bubbleBash.png",
       desc: "I made This web About my learning to slicing web Partner IT Consutant",
       tech: [
         "/tech/javascript.svg",
@@ -83,7 +83,7 @@ export const allProject = [
     {
       id: 7,
       name: "EduuFree",
-      image: "/edufree.png",
+      image: "/projects/edufree.png",
       desc: "this web to for my learn about slicing components, about website online course",
       tech: [
         "/tech/typescript.svg",
@@ -97,7 +97,7 @@ export const allProject = [
     {
       id: 8,
       name: "Portfolio v1",
-      image: "/portfoliov1.png",
+      image: "/projects/portfoliov1.png",
       desc: "My First Portfolio using NextJS to Showcase my Skills and Projects",
       tech: [
         "/tech/javascript.svg",
@@ -111,7 +111,7 @@ export const allProject = [
     {
       id: 9,
       name: "Simple Filtered Movies",
-      image: "/Yato Movies.png",
+      image: "/projects/Yato Movies.png",
       desc: "This Project to learn Filtered by Category with API",
       tech: [
         "/tech/javascript.svg",
