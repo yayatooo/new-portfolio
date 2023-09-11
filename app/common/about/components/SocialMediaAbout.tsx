@@ -1,5 +1,5 @@
 import ButtonSocialMedia from "@/app/hooks/ButtonSocialMedia";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithub, FaMedium } from "react-icons/fa6";
 import { PiTelegramLogoDuotone } from "react-icons/pi";
 import { AiFillLinkedin } from "react-icons/ai";
 import { BiDownload } from "react-icons/bi";
@@ -11,8 +11,8 @@ const SocialMediaAbout = () => {
         LinkedIn
         <AiFillLinkedin />
       </ButtonSocialMedia>
-      <ButtonSocialMedia href="https://github.com/yayatooo">
-        Github <FaGithub />
+      <ButtonSocialMedia href="https://medium.com/@yayatbx">
+        Medium <FaMedium />
       </ButtonSocialMedia>
       <ButtonSocialMedia href="https://t.me/yayatoooo">
         Telegram
