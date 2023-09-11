@@ -70,7 +70,7 @@ export const allProject = [
     {
       id: 6,
       name: "BubbleBash",
-      image: "/projects/bubblebash2.png",
+      image: "/projects/bubblebash.svg",
       desc: "I made This web About my learning to slicing web Partner IT Consutant",
       tech: [
         "/tech/javascript.svg",
