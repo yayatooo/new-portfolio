@@ -12,7 +12,7 @@ const CareerPage = () => {
       exit="hidden"
       variants={fadeUpVariants}
       transition={{ duration: 0.5 }}
-      className="container max-w-5xl pt-10"
+      className="container max-w-5xl pt-6"
     >
       <h1 className="text-4xl font-semibold py-8 text-center lg:text-start">
         My Career So Far

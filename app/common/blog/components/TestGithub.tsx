@@ -1,42 +1,41 @@
-"use client";
-import React, { useState, useEffect } from "react";
+// "use client";
+// import React, { useState, useEffect } from "react";
 import axios from "axios";
+import { getGithubData } from "@/app/constant/github";
 
-const GitHubPage = () => {
-  const [profile, setProfile] = useState(null);
+type GithubProps = {
+  data: {
+    name: string;
+  };
+};
 
-  useEffect(() => {
-    const token = "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";
-    const headers = {
-      Authorization: `token ${token}`,
-    };
+const githubData = {
+  data: {},
+};
 
-    axios
-      .get(`https://api.github.com/users/yayatooo`, {
-        headers,
-      })
-      .then((response) => {
-        setProfile(response.data);
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
+const token = process.env.GITHUB_TOKEN;
+const headers = {
+  Authorization: `token ${token}`,
+};
 
-  console.log(profile);
+axios
+  .get(`https://api.github.com/users/yayatooo`, {
+    headers,
+  })
+  .then((response) => {
+    githubData.data = response.data;
+    console.log(response.data);
+  })
+  .catch((error) => {
+    console.error("Error fetching data:", error);
+  });
 
+const GitHubPage = async () => {
+  const allData = await getGithubData();
+  // console.log(allData);
   return (
     <div>
-      <h1>GitHub Profile</h1>
-      {profile ? (
-        <div>
-          {/* <p>Username: {profile.login}</p> */}
-          {/* <p>Name: {profile.name}</p> */}
-          {/* Display more profile information as needed */}
-        </div>
-      ) : (
-        <p>Loading...</p>
-      )}
+      {/* <h1 className="text-white text-7xl">{githubData.data.name}</h1> */}
     </div>
   );
 };

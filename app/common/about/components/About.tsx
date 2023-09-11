@@ -7,8 +7,12 @@ import HeadingTittle from "@/app/hooks/HeadingTittle";
 import Navbar from "@/app/hooks/elements/Navbar";
 import Footer from "@/app/hooks/elements/Footer";
 import SubHeadingTittle from "@/app/hooks/SubHeadingTittle";
+import Contributions from "./contribution/Contribution";
+import { getGithubData } from "@/app/constant/github";
 
-const About = () => {
+const About = async () => {
+  const githubData = await getGithubData();
+
   return (
     <>
       <Navbar />
@@ -16,8 +20,8 @@ const About = () => {
         <HeadingTittle>About</HeadingTittle>
         <SubHeadingTittle>What Im Interesting About</SubHeadingTittle>
         <AboutPage />
-        <CareerPage />
-        {/* <ContributionPage /> */}
+        {/* <CareerPage /> */}
+        <Contributions githubData={githubData} />
       </Container>
       <Footer />
     </>

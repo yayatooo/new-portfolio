@@ -17,7 +17,7 @@ const Blog = () => {
               Wait Lagi Ditulis eheh 🦦
             </h1>
           </div>
-          {/* <GitHubPage /> */}
+          <GitHubPage />
         </section>
       </Container>
       <Footer />
