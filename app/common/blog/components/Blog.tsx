@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "@/app/hooks/Container";
 import HeadingTittle from "@/app/hooks/HeadingTittle";
-import GitHubPage from "./TestGithub";
+// import GitHubPage from "./TestGithub";
 import Navbar from "@/app/hooks/elements/Navbar";
 import Footer from "@/app/hooks/elements/Footer";
 
@@ -17,7 +17,7 @@ const Blog = () => {
               Wait Lagi Ditulis eheh 🦦
             </h1>
           </div>
-          <GitHubPage />
+          {/* <GitHubPage /> */}
         </section>
       </Container>
       <Footer />

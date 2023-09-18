@@ -1,5 +1,3 @@
-import axios from "axios";
-
 export const GITHUB_API_BASE_URL = 'https://api.github.com/graphql';
 export const GITHUB_ACCOUNTS = {
   username: 'yayatooo',
