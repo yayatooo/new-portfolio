@@ -8,7 +8,7 @@ import Navbar from "@/app/hooks/elements/Navbar";
 import Footer from "@/app/hooks/elements/Footer";
 import SubHeadingTittle from "@/app/hooks/SubHeadingTittle";
 import Contributions from "./contribution/Contribution";
-import { getGithubData } from "@/app/constant/github";
+import { getGithubData } from "@/app/constant/githubService";
 
 const About = async () => {
   const githubData = await getGithubData();
