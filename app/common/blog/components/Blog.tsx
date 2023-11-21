@@ -13,7 +13,7 @@ const Blog = () => {
         <HeadingTittle>Blog</HeadingTittle>
         <section>
           <div className="text-center py-48 mb-64">
-            <h1 className="text-7xl font font-semibold">
+            <h1 className="xs:text-3xl lg:text-7xl  font font-semibold">
               in the development stage
             </h1>
           </div>
