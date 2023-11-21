@@ -14,7 +14,7 @@ const AboutPage = () => {
         transition={{ duration: 1 }}
       >
         <Image
-          src="/media/profile.jpg"
+          src="/media/profilepicture.jpg"
           width={300}
           height={250}
           alt="Profile"
