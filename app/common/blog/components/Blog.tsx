@@ -14,7 +14,7 @@ const Blog = () => {
         <section>
           <div className="text-center py-48 mb-64">
             <h1 className="text-7xl font font-semibold">
-              Wait Lagi Ditulis eheh 🦦
+              in the development stage
             </h1>
           </div>
           {/* <GitHubPage /> */}

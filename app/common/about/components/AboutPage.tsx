@@ -13,7 +13,12 @@ const AboutPage = () => {
         animate={{ filter: "blur(0px)", opacity: 1 }}
         transition={{ duration: 1 }}
       >
-        <Image src="/Thorfinn.jpeg" width={300} height={250} alt="Profile" />
+        <Image
+          src="/media/profile.jpg"
+          width={300}
+          height={250}
+          alt="Profile"
+        />
       </motion.div>
       <motion.div
         initial="hidden"
