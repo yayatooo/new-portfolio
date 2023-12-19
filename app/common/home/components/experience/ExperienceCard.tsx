@@ -28,7 +28,7 @@ export default function ExperienceCard({
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: 50 }}
       transition={{ duration: 0.5 }}
-      className="w-11/12 mx-auto p-8 rounded-lg shadow-xl bg-gray-200 dark:bg-dark-secondary"
+      className="w-11/12 mx-auto p-8 rounded-lg shadow-xl bg-gray-200 dark:bg-dark-secondary cursor-grabbing"
       key={id}
     >
       <h1 className="text-3xl font-semibold">{job}</h1>
