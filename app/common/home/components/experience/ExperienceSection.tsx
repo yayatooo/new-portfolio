@@ -3,12 +3,19 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { allExperiences } from "@/app/utils/data";
 import ExperienceCard from "./ExperienceCard";
+// import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
+import { Navigation } from "swiper/modules";
 import "swiper/css";
 
 export default function ExperienceSection() {
   return (
-    <section className="container max-w-5xl mx-auto flex flex-wrap justify-center gap-6">
+    <section className="container max-w-5xl mx-auto flex flex-wrap justify-center gap-5">
       <Swiper
+        modules={[Navigation]}
+        navigation={{
+          prevEl: ".swiper-button-prev",
+          nextEl: ".swiper-button-next",
+        }}
         breakpoints={{
           350: {
             slidesPerView: 1,
@@ -20,7 +27,7 @@ export default function ExperienceSection() {
           },
           1024: {
             slidesPerView: 2,
-            spaceBetween: 32,
+            spaceBetween: 26,
           },
         }}
         pagination={{ clickable: true }}
@@ -46,6 +53,11 @@ export default function ExperienceSection() {
             </SwiperSlide>
           )
         )}
+
+        {/* <div className="bg-yellow-500">
+          <FaChevronRight className="swiper-button-next" />
+          <FaChevronLeft className="swiper-button-prev" />
+        </div> */}
       </Swiper>
     </section>
   );

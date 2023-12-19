@@ -37,6 +37,21 @@ const Skills = () => {
       title: "Git",
       info: "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
     },
+    {
+      icon: "/tech/nodejs-icon.svg",
+      title: "NodeJs",
+      info: "Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser.",
+    },
+    {
+      icon: "/tech/express.svg",
+      title: "ExpressJs",
+      info: "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+    },
+    {
+      icon: "/tech/mongodb-icon-1.svg",
+      title: "MongoDB",
+      info: "MongoDB is a non-relational document database that provides support for JSON-like storage. The MongoDB database has a flexible data model that enables you to store unstructured data, and it provides full indexing support, and replication with rich and intuitive APIs.",
+    },
   ];
 
   return (
@@ -60,8 +75,8 @@ const Skills = () => {
           >
             <Image src={data.icon} width={64} height={64} alt="skill" />
             <div className="text-left">
-              <h3 className="font-semibold py-1">{data.title}</h3>
-              <p className="text-sm text-muted-foreground">{data.info}</p>
+              <h3 className="font-semibold py-2">{data.title}</h3>
+              <p className="text-sm text-muted-foreground pt-2">{data.info}</p>
             </div>
           </div>
         ))}

@@ -29,13 +29,13 @@ const HeroSection = () => {
           Hi, I&apos;m Rahmat Hidayat 🙌
         </p>
       </div>
-      <h1 className="font-semibold bg-gradient-to-r from-blue-700 to-sky-500 bg-clip-text text-transparent my-4 xs:text-5xl lg:text-6xl">
-        Frontend Developer
+      <h1 className="font-semibold bg-gradient-to-r from-blue-700 to-sky-500 bg-clip-text text-transparent py-4 xs:text-5xl lg:text-6xl">
+        Softwere Engineer
       </h1>
       <h2 className="lg:text-2xl xs:text-lg xs:text-start text-justify">
         I&apos;m interested with the modern web development. I build app using
-        on demand technologies such as React.js, Next.js and Tailwind.css. Feel
-        free to contact me :)
+        on demand technologies such as MERN Stack, Specially Next.js and
+        Tailwind.css. Feel free to contact me :)
       </h2>
       <div className="flex gap-x-6 justify-center mt-8">
         <Button href="/about">
