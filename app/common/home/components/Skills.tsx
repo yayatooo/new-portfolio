@@ -70,13 +70,13 @@ const Skills = () => {
       <div className=" container max-w-5xl mx-auto grid justify-center gap-4 sm:grid-cols-2 md:grid-cols-3 mt-5">
         {skillSet.map((data) => (
           <div
-            className="relative overflow-hidden rounded-lg p-6 cursor-pointer"
+            className="flex flex-col items-center overflow-hidden rounded-lg p-6 cursor-pointer"
             key={data.title}
           >
             <Image src={data.icon} width={64} height={64} alt="skill" />
             <div className="text-left">
               <h3 className="font-semibold py-2">{data.title}</h3>
-              <p className="text-sm text-muted-foreground pt-2">{data.info}</p>
+              {/* <p className="text-sm text-muted-foreground pt-2">{data.info}</p> */}
             </div>
           </div>
         ))}
