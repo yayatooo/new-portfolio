@@ -126,7 +126,35 @@ export const allProject = [
   export const allExperiences = [
     {
       id:1,
-      job:"Softwere Engineer",
+      job:"Software Engineer",
+      company:"Eduwork",
+      position:"Intern",
+      date:"Sep 2023 - Des 2023",
+      desc: "build a web application to speed up the ordering process up to 30% of food at client businesses using MongoDB, ExpressJs, ReactJs, TailwindCSS, NodeJS",
+      skills:[
+        "/tech/mongodb-icon-1.svg",
+        "/tech/icons8-express-js.svg",
+        "/tech/react-icon.svg",
+        "/tech/nodejs-icon.svg",
+      ]
+    },
+    {
+      id:2,
+      job:"Frontend Developer",
+      company:"Rifqi Motor",
+      position:"Freelance",
+      date:"Apr 2023 - May 2023",
+      desc: "building a web application to efficiently manage a business showroom for motorcycles. Our goal is simplifies the management of motorcycle inventory",
+      skills:[
+        "/tech/typescript.svg",
+        "/tech/nextjs-icon.svg",
+        "/tech/prisma.svg",
+        "/tech/mysql.svg"
+      ]
+    },
+    {
+      id:3,
+      job:"Software Engineer",
       company:"BMKG Mutiara Class II Palu",
       position:"Intern",
       date:"Sep 2020 - Nov 2020",
@@ -138,21 +166,7 @@ export const allProject = [
       ]
     },
     {
-      id:2,
-      job:"Frontend Developer",
-      company:"Rifqi Motor",
-      position:"Freelance",
-      date:"Apr 2023 - May 2023",
-      desc: "building a web application to efficiently manage a business showroom for motorcycles. Our goal is simplifies the management of motorcycle inventory",
-      skills:[
-        "/tech/logo-javascript.svg",
-        "/tech/nextjs-icon.svg",
-        "/tech/prisma.svg",
-        "/tech/mysql.svg"
-      ]
-    },
-    {
-      id:3,
+      id:4,
       job:"Admin",
       company:"Gustiana Cahaya Poso",
       position:"Fulltime",
