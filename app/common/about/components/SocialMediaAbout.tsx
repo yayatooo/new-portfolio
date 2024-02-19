@@ -1,8 +1,8 @@
 import ButtonSocialMedia from "@/app/hooks/ButtonSocialMedia";
-import { FaGithub, FaMedium } from "react-icons/fa6";
+import { FaMedium } from "react-icons/fa6";
 import { PiTelegramLogoDuotone } from "react-icons/pi";
 import { AiFillLinkedin } from "react-icons/ai";
-import { BiDownload } from "react-icons/bi";
+import { FaFileAlt } from "react-icons/fa";
 
 const SocialMediaAbout = () => {
   return (
@@ -18,9 +18,9 @@ const SocialMediaAbout = () => {
         Telegram
         <PiTelegramLogoDuotone />
       </ButtonSocialMedia>
-      <ButtonSocialMedia href="./pdf/Frontend Developer_Rahmat Hidayat.pdf">
-        Download CV
-        <BiDownload />
+      <ButtonSocialMedia href="https://docs.google.com/document/d/1Xz1Jy2wYGJFrcJLLp2XHZHfyeI9I8l9iNQG3Ojf-J6E/edit?usp=sharing">
+        Resume
+        <FaFileAlt />
       </ButtonSocialMedia>
     </div>
   );
