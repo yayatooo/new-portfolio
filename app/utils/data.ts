@@ -7,7 +7,7 @@ export const allProject = [
       tech: [
         "/tech/javascript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
         "/tech/nextjs-icon.svg",
       ],
       href: "https://slicing-ui-finftrend-delta.vercel.app/",
@@ -21,7 +21,7 @@ export const allProject = [
       tech: [
         "/tech/javascript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
       ],
       href: "https://yt-clone-gules.vercel.app/",
       repository: "https://github.com/yayatooo/yt-clone",
@@ -34,7 +34,7 @@ export const allProject = [
       tech: [
         "/tech/typescript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
         "/tech/nextjs-icon.svg",
       ],
       href: "./",
@@ -48,7 +48,7 @@ export const allProject = [
       tech: [
         "/tech/javascript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
         "/tech/nextjs-icon.svg",
       ],
       href: "https://poke-api-with-modal.vercel.app/",
@@ -62,7 +62,7 @@ export const allProject = [
       tech: [
         "/tech/javascript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
       ],
       href: "https://coral-shop-bhoixp74e-yayatooo.vercel.app/",
       repository: "https://github.com/yayatooo/Coral-shop",
@@ -75,7 +75,7 @@ export const allProject = [
       tech: [
         "/tech/javascript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
       ],
       href: "https://bubble-bash-slicing-components.vercel.app/",
       repository: "https://github.com/yayatooo/BubbleBash-Slicing-Components",
@@ -88,7 +88,7 @@ export const allProject = [
       tech: [
         "/tech/typescript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
         "/tech/nextjs-icon.svg",
       ],
       href: "./",
@@ -102,7 +102,7 @@ export const allProject = [
       tech: [
         "/tech/javascript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
         "/tech/nextjs-icon.svg",
       ],
       href: "https://portfolio-hazel-two-39.vercel.app/",
@@ -116,7 +116,7 @@ export const allProject = [
       tech: [
         "/tech/javascript.svg",
         "/tech/react-icon.svg",
-        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+        "/tech/tailwind-css.svg",
       ],
       href: "https://movie-filtering.vercel.app/",
       repository: "https://github.com/yayatooo/Movie-filtering",
