@@ -10,7 +10,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily : {
-        'Poppins' : ['Poppins', 'sans-serif']
+        'Poppins' : ['Poppins', 'sans-serif'],
+        'sans'  : ['var--poppinsSans-font']
       },
       colors : {
         'dark' : '#131312'
