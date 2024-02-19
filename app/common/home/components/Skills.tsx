@@ -28,7 +28,7 @@ const Skills = () => {
       info: "Next.js is an open-source web development framework created by Vercel enabling React-based web applications with server-side rendering and generating static websites",
     },
     {
-      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      icon: "/tech/tailwind-css.svg",
       title: "Tailwind Css",
       info: "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
     },
@@ -73,7 +73,9 @@ const Skills = () => {
             className="flex flex-col items-center overflow-hidden rounded-lg p-6 cursor-pointer"
             key={data.title}
           >
-            <Image src={data.icon} width={64} height={64} alt="skill" />
+            <div className="h-[64px] w-[64px]">
+              <Image src={data.icon} width={64} height={64} alt="skill" />
+            </div>
             <div className="text-left">
               <h3 className="font-semibold py-2">{data.title}</h3>
               {/* <p className="text-sm text-muted-foreground pt-2">{data.info}</p> */}
