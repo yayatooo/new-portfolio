@@ -140,7 +140,7 @@ export const allProject = [
     },
     {
       id:2,
-      job:"Frontend Developer",
+      job:"Fullstack Developer",
       company:"Rifqi Motor",
       position:"Freelance",
       date:"Apr 2023 - May 2023",
