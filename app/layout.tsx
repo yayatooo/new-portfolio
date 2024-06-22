@@ -2,11 +2,14 @@ import "./globals.css";
 import type { Metadata } from "next";
 import Provider from "./hooks/Provider";
 import { poppinsSans } from "./constant/font";
+import { Poppins } from 'next/font/google';
 
 export const metadata: Metadata = {
   title: "Rahmat Hidayat",
   description: "Made with ❤️ and NextJS",
 };
+
+
 
 export default function RootLayout({
   children,
