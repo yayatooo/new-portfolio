@@ -126,6 +126,19 @@ export const allProject = [
   export const allExperiences = [
     {
       id:1,
+      job:"Fullstack Developer",
+      company:"Merkle Innovation",
+      position:"Freelance",
+      date:"Apr 2024 - Present",
+      desc: "Developed a comprehensive Mendix application for Service Vendor Agreement (SVA) management, including 5 feature modules and an intuitive user interface design (80%)",
+      skills:[
+        "/tech/mendix-logo-1.png",
+        "/tech/html5.svg",
+        "/tech/css-alt.svg",
+      ]
+    },
+    {
+      id:2,
       job:"Software Engineer",
       company:"Eduwork",
       position:"Intern",
@@ -139,7 +152,7 @@ export const allProject = [
       ]
     },
     {
-      id:2,
+      id:3,
       job:"Fullstack Developer",
       company:"Rifqi Motor",
       position:"Freelance",
@@ -153,7 +166,7 @@ export const allProject = [
       ]
     },
     {
-      id:3,
+      id:4,
       job:"Software Engineer",
       company:"BMKG Mutiara Class II Palu",
       position:"Intern",
@@ -163,18 +176,6 @@ export const allProject = [
         "/tech/php-1.svg",
         "/tech/bootstrap.svg",
         "/tech/mysql.svg",
-      ]
-    },
-    {
-      id:4,
-      job:"Admin",
-      company:"Gustiana Cahaya Poso",
-      position:"Fulltime",
-      date:"May 2021 - Mar 20233",
-      desc: "Install machine and app of cashier for manage monthly expenses and income and handle social media for costumer survice, and maintenance cashier app",
-      skills:[
-        "/tech/microsoft-excel-2013.svg",
-        "/tech/microsoft-word-2013-logo.svg",
       ]
     },
   ]

@@ -43,10 +43,6 @@ const HeroSection = () => {
           <span className="mr-1">Get in Touch</span>
           <AiFillMessage />
         </Button>
-        {/* <Button>
-          <FaGithub />
-          <span className="ml-1">Github</span>
-        </Button> */}
       </div>
     </motion.section>
   );
