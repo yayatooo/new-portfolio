@@ -4,7 +4,7 @@ import AnimatedGridPattern from "@/components/magicui/animated-grid-pattern";
 
 export default function Layout({children} : any) {
   return (
-    <div className="w-full items-center justify-center">
+    <div className="w-full items-center justify-center z-0">
         {children}
       <AnimatedGridPattern
         numSquares={30}
