@@ -19,7 +19,7 @@ const ProjectPage = () => {
     >
       {allProject.map((item, index) => (
         <div
-          className="dark:bg-dark-secondary bg-gray-200 rounded-lg shadow-xl z-40"
+          className="dark:bg-dark-secondary bg-gray-200 rounded-lg shadow-xl z-30"
           key={index}
         >
           <motion.div
