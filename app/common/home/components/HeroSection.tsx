@@ -25,7 +25,7 @@ const HeroSection = () => {
             className=" bg-gradient-to-r from-blue-700 to-sky-500 rounded-full"
           />
         </div>
-        <p className=" text-white bg-dark dark:bg-white dark:text-dark rounded-full p-2 w-[18rem] text-center xs:text-base lg:text-xl">
+        <p className=" text-white bg-dark dark:bg-white dark:text-dark rounded-full p-2 w-[18rem] text-center xs:text-base lg:text-xl z-30">
           Hi, I&apos;m Rahmat Hidayat 🙌
         </p>
       </div>

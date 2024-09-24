@@ -30,7 +30,7 @@ const Skills = () => {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       transition={{ duration: 2 }}
-      className="w-full py-8"
+      className="w-full py-20"
     >
       <div className="container max-w-5xl mx-auto flex flex-col justify-center text-center">
         <HeadingTittle>Skills</HeadingTittle>
